@@ -378,7 +378,7 @@ if !hasmapto('<Plug>MarkRegex', 'x')
 	xmap <unique> <Leader>hr <Plug>MarkRegex
 endif
 if !hasmapto('<Plug>MarkClear', 'n')
-	nmap <unique> <Leader>hc <Plug>MarkClear
+	nmap <unique> <Leader>hc <Plug>MarkAllClear
 endif
 " No default mapping for <Plug>MarkAllClear.
 " No default mapping for <Plug>MarkConfirmAllClear.
